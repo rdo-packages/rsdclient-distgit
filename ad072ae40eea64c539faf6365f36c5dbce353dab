@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a6ced46_fd686789",
+        "filename": "python-rsdclient.spec",
+        "patchSetId": 14
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 127
+      },
+      "writtenOn": "2018-01-03T19:22:18Z",
+      "side": 1,
+      "message": "I do not see a BuildRequires: git",
+      "range": {
+        "startLine": 96,
+        "startChar": 45,
+        "endLine": 96,
+        "endChar": 48
+      },
+      "revId": "ad072ae40eea64c539faf6365f36c5dbce353dab",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
