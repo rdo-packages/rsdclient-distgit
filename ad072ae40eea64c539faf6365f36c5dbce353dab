@@ -22,6 +22,30 @@
       "revId": "ad072ae40eea64c539faf6365f36c5dbce353dab",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a6ced46_7d1477f5",
+        "filename": "python-rsdclient.spec",
+        "patchSetId": 14
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 486
+      },
+      "writtenOn": "2018-01-03T19:49:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a6ced46_fd686789",
+      "range": {
+        "startLine": 96,
+        "startChar": 45,
+        "endLine": 96,
+        "endChar": 48
+      },
+      "revId": "ad072ae40eea64c539faf6365f36c5dbce353dab",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
