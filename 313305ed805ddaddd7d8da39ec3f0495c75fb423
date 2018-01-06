@@ -1,0 +1,10 @@
+Code-Review+1: User bfournie <bfournie@redhat.com>
+Code-Review+1: Jon Schlueter <jschluet@redhat.com>
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Workflow+1: Alan Pevec <alan.pevec@redhat.com>
+Verified+2: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Submitted-by: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Submitted-at: Sat, 06 Jan 2018 00:43:15 +0000
+Reviewed-on: https://review.rdoproject.org/r/10620
+Project: openstack/rsdclient-distgit
+Branch: refs/heads/rpm-master
