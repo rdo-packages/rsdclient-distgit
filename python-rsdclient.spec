@@ -105,7 +105,7 @@ Documentation for python-rsdclient
 # generate html docs
 %{__python2} setup.py build_sphinx
 # remove the sphinx-build leftovers
-rm -rf html/.{doctrees,buildinfo}
+rm -rf doc/build/html/.{doctrees,buildinfo}
 
 %install
 %py2_install
