@@ -27,17 +27,17 @@ Summary:        %{summary}
 
 BuildRequires:  git
 BuildRequires:  python2-devel
-BuildRequires:  python-oslotest >= 1.10.0
-BuildRequires:  python-reno >= 1.8.0
-BuildRequires:  python-setuptools
-BuildRequires:  python-testrepository >= 0.0.18
-BuildRequires:  python-testtools >= 1.4.0
+BuildRequires:  python2-oslotest >= 1.10.0
+BuildRequires:  python2-reno >= 1.8.0
+BuildRequires:  python2-setuptools
+BuildRequires:  python2-testrepository >= 0.0.18
+BuildRequires:  python2-testtools >= 1.4.0
 
-Requires:       python-cliff >= 2.8.0
-Requires:       python-osc-lib >= 1.7.0
+Requires:       python2-cliff >= 2.8.0
+Requires:       python2-osc-lib >= 1.7.0
 Requires:       python2-pbr >= 2.0
-Requires:       python-rsd-lib >= 0.1.1
-Requires:       python-setuptools
+Requires:       python2-rsd-lib >= 0.1.1
+Requires:       python2-setuptools
 
 %description -n python2-%{sname}
 This is a client for the RSD Pod Manager API, which is based on OpenStack
@@ -86,9 +86,9 @@ Tests for python-rsdclient
 %package -n python-%{sname}-doc
 Summary: python-rsdclient documentation
 
-BuildRequires: python-sphinx
-BuildRequires: python-oslo-sphinx
-BuildRequires: python-openstackdocstheme >= 1.11.0
+BuildRequires: python2-sphinx
+BuildRequires: python2-oslo-sphinx
+BuildRequires: python2-openstackdocstheme >= 1.11.0
 
 %description -n python-%{sname}-doc
 Documentation for python-rsdclient
