@@ -7,7 +7,7 @@
 %global pyname python_rsdclient
 
 Name:           python-%{sname}
-Version:        0.1.1
+Version:        0.1.3
 Release:        1%{?dist}
 Summary:        OpenStack client plugin for Rack Scale Design
 
@@ -146,6 +146,9 @@ install -d -m 755 %{buildroot}%{_localstatedir}/log/%{pyname}
 %doc doc/build/html README.rst
 
 %changelog
+* Thu May 03 2018 Lin Yang <lin.a.yang@intel.com> 0.1.3-1
+- Update to 0.1.3
+
 * Tue Feb 13 2018 RDO <dev@lists.rdoproject.org> 0.1.1-1
 - Update to 0.1.1
 
