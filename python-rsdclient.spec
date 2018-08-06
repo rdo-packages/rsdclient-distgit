@@ -33,6 +33,7 @@ BuildRequires:  python2-setuptools
 BuildRequires:  python2-testrepository >= 0.0.18
 BuildRequires:  python2-testtools >= 1.4.0
 
+Requires:       python2-six >= 1.10.0
 Requires:       python2-cliff >= 2.8.0
 Requires:       python2-osc-lib >= 1.7.0
 Requires:       python2-pbr >= 2.0
@@ -62,6 +63,7 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-testrepository >= 0.0.18
 BuildRequires:  python3-testtools >= 1.4.0
 
+Requires:       python3-six >= 1.10.0
 Requires:       python3-cliff >= 2.8.0
 Requires:       python3-osc-lib >= 1.7.0
 Requires:       python3-pbr >= 2.0
