@@ -11,6 +11,8 @@
 # End of macros for py2/py3 compatibility
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
+%global with_doc 1
+
 %global sname rsdclient
 %global pyname python_rsdclient
 
@@ -59,6 +61,7 @@ Requires: python%{pyver}-%{sname} = %{version}-%{release}
 %description -n python%{pyver}-%{sname}-tests
 Tests for python-rsdclient
 
+%if 0%{?with_doc}
 %package -n python-%{sname}-doc
 Summary: python-rsdclient documentation
 
@@ -68,6 +71,7 @@ BuildRequires: python%{pyver}-openstackdocstheme >= 1.11.0
 
 %description -n python-%{sname}-doc
 Documentation for python-rsdclient
+%endif
 
 %prep
 %autosetup -n %{name}-%{upstream_version} -S git
@@ -75,10 +79,12 @@ Documentation for python-rsdclient
 %build
 %{pyver_build}
 
+%if 0%{?with_doc}
 # generate html docs
 %{pyver_bin} setup.py build_sphinx
 # remove the sphinx-build-%{pyver} leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
+%endif
 
 %install
 %{pyver_install}
@@ -99,8 +105,10 @@ install -d -m 755 %{buildroot}%{_localstatedir}/log/%{pyname}
 %license LICENSE
 %{pyver_sitelib}/%{sname}/tests
 
+%if 0%{?with_doc}
 %files -n python-%{sname}-doc
 %license LICENSE
 %doc doc/build/html README.rst
+%endif
 
 %changelog
