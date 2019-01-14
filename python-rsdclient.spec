@@ -38,7 +38,6 @@ Summary:        %{summary}
 BuildRequires:  git
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-oslotest >= 1.10.0
-BuildRequires:  python%{pyver}-reno >= 1.8.0
 BuildRequires:  python%{pyver}-setuptools
 BuildRequires:  python%{pyver}-testrepository >= 0.0.18
 BuildRequires:  python%{pyver}-testtools >= 1.4.0
@@ -64,7 +63,7 @@ Tests for python-rsdclient
 %if 0%{?with_doc}
 %package -n python-%{sname}-doc
 Summary: python-rsdclient documentation
-
+BuildRequires: python%{pyver}-reno >= 1.8.0
 BuildRequires: python%{pyver}-sphinx
 BuildRequires: python%{pyver}-oslo-sphinx
 BuildRequires: python%{pyver}-openstackdocstheme >= 1.11.0
