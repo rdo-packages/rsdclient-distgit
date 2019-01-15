@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_ed6d80cd",
+        "filename": "python-rsdclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-01-15T05:23:14Z",
+      "side": 1,
+      "message": "i think we can completely get rid of as don\u0027t think we need it to build docs.",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "5a27113a191bd1d5a9024a9af22c023288fc990f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
