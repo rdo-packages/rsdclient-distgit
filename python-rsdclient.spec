@@ -64,7 +64,6 @@ Tests for python-rsdclient
 %package -n python-%{sname}-doc
 Summary: python-rsdclient documentation
 BuildRequires: python%{pyver}-sphinx
-BuildRequires: python%{pyver}-oslo-sphinx
 BuildRequires: python%{pyver}-openstackdocstheme >= 1.11.0
 
 %description -n python-%{sname}-doc
