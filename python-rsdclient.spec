@@ -43,11 +43,9 @@ BuildRequires:  python%{pyver}-testrepository >= 0.0.18
 BuildRequires:  python%{pyver}-testtools >= 1.4.0
 
 Requires:       python%{pyver}-six >= 1.10.0
-Requires:       python%{pyver}-cliff >= 2.8.0
 Requires:       python%{pyver}-osc-lib >= 1.7.0
 Requires:       python%{pyver}-pbr >= 2.0
-Requires:       python%{pyver}-rsd-lib >= 0.1.1
-
+Requires:       python%{pyver}-rsd-lib >= 1.2.0
 %description -n python%{pyver}-%{sname}
 This is a client for the RSD Pod Manager API, which is based on OpenStack
 client framework. It provides a Python API (rsdclient/v1 module) and a RSD
