@@ -6,8 +6,8 @@
 %global pyname python_rsdclient
 
 Name:           python-%{sname}
-Version:        XXX
-Release:        XXX
+Version:        1.0.2
+Release:        1%{?dist}
 Summary:        OpenStack client plugin for Rack Scale Design
 
 License:        ASL 2.0
@@ -96,3 +96,6 @@ install -d -m 755 %{buildroot}%{_localstatedir}/log/%{pyname}
 %endif
 
 %changelog
+* Mon Apr 27 2020 RDO <dev@lists.rdoproject.org> 1.0.2-1
+- Update to 1.0.2
+
