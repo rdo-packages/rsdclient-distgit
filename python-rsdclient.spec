@@ -37,7 +37,7 @@ specific plugin for OpenStack client (rsdclient/osc).
 Summary:        %{summary}
 %{?python_provide:%python_provide python3-%{sname}}
 
-BuildRequires:  git
+BuildRequires:  git-core
 BuildRequires:  python3-devel
 BuildRequires:  python3-oslotest >= 1.10.0
 BuildRequires:  python3-setuptools
