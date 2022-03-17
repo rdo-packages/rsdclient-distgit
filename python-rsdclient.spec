@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %global with_doc 1
@@ -8,8 +8,8 @@
 %global pyname python_rsdclient
 
 Name:           python-%{sname}
-Version:        XXX
-Release:        XXX
+Version:        1.0.2
+Release:        1%{?dist}
 Summary:        OpenStack client plugin for Rack Scale Design
 
 License:        ASL 2.0
@@ -113,3 +113,6 @@ install -d -m 755 %{buildroot}%{_localstatedir}/log/%{pyname}
 %endif
 
 %changelog
+* Thu Mar 17 2022 RDO <dev@lists.rdoproject.org> 1.0.2-1
+- Update to 1.0.2
+
