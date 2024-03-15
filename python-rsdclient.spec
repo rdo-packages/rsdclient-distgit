@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0xbba3b1e67a7303dd1769d34595bf2e4d09004514
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
 %global excluded_brs doc8 bandit pre-commit hacking flake8-import-order
@@ -14,8 +14,8 @@
 %global pyname python_rsdclient
 
 Name:           python-%{sname}
-Version:        XXX
-Release:        XXX
+Version:        1.0.2
+Release:        2%{?dist}
 Summary:        OpenStack client plugin for Rack Scale Design
 
 License:        Apache-2.0
@@ -131,3 +131,6 @@ install -d -m 755 %{buildroot}%{_localstatedir}/log/%{pyname}
 %endif
 
 %changelog
+* Fri Mar 15 2024 RDO <dev@lists.rdoproject.org> 1.0.2-2
+- Rebuild 1.0.2 in Caracal
+
